@@ -8,6 +8,10 @@
    display: flex;
    margin-top:4%;
 
+   @media @phone{
+    width:80%;
+  }
+
    nav a{
     font-size: 1.5rem;
     justify-content: space-around;
@@ -15,6 +19,12 @@
     font-family: 'Russo One', sans-serif;
     color: @header-font-color;
     text-decoration: none;
+    @media @phone{
+        width:55%;
+        margin:2px;
+        justify-content: space-between;
+      }
+   
 
   }//links end
 }//nav end

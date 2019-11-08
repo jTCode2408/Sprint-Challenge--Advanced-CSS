@@ -2,6 +2,7 @@
 
 .home {
 
+  
   .intro {
 
     h2 {
@@ -12,7 +13,17 @@
       padding:0 15px;
     }
   
+  
+
+  @media @phone{
+    border:2px solid grey;
+    display:flex;
+    flex-direction:column;
+    width:77%;
+   
   }
+}
+
 
   .space-images {
     display: flex;
@@ -72,29 +83,17 @@
       }
     }
   }
-.head{
-  width:100%;
-  
+}// home
 
-.top{
-  .top-back();
-
-  h1{
-    font-size: 3rem;
-    display:flex;
-  justify-content: space-evenly;
+h1{
+  font-size:3rem;
+  text-align: center;
   width:100%;
+
+  @media @phone{
+    border:2px solid black;
+    font-size:3rem;
+    text-align: center;
+    width:100%;
   }
-}
-
-.banner{
-  .banner-prop();
-  
-}
-
-}
-}
-
-.btn{
-  .custom-btn();
 }
