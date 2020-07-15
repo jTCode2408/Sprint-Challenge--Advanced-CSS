@@ -35,23 +35,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 What is the difference between an adaptive website and a fully responsive website?
 
---Adaptive doesnt allow the flexibility Responsive design does. Responsive design incorporates the use of responsive units to have adaptability for more devices than adaptive.
 
-Describe what it means to be mobile first vs desktop first.
 
--Desktop first goes from Max-wifth, down based on screen size, with base CSS being designed for desktop. Mobile first is the opposite, going from min-width, up; with base CSS layout being designed for mobile and adjusted as screen size goes up.
-
-What does font-size: 62.5% in the html tag do for us when using rem units?
-
--62.5 allows us to use basse 10 instead of 16 when doing rem units, so makes it easier to do the math.
-
-How would you describe preprocessing to someone new to CSS?
-
---Preprocessors add abilities to CSS making them have more flexible design capabilities. In preprocessing the CSS code is compiled and converted into a language regular CSS file can read.
-
-What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 --Favorite concept is probably mixins. Least favorite is probably having to remember to turn the compiler off/on when commiting changes.
+
 
 
 
