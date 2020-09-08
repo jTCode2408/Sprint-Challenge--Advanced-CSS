@@ -1,1 +1,29 @@
 // Mixins Here
+.top-back(){
+    background-color:rgba(242, 245, 244, 0.877);
+    height:90px;
+    width:100%;
+}
+
+.banner-prop(){
+border-radius: 2%;
+width:100%;
+}
+
+    .custom-btn(@bg-color: rgb(62, 64, 66), @size: 120px, @font-color: white){
+        
+        background-color: @bg-color;
+        width: @size;
+        height: 45px;
+        font-size: 2rem;
+        border-radius: 10px;
+        color:@font-color;
+        text-align:center;
+        padding:3%;
+
+        &:hover{
+          background-color:@font-color;
+          color:@bg-color;
+}
+    }
+
